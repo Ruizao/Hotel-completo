@@ -1,0 +1,86 @@
+body {
+  background-color: #a09f9f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input, textarea {
+    padding: 5px 15px;
+}
+input[type=text], input[type=password] {
+    width: 256px;
+}
+
+moeda {
+  display: block;
+  color: #1C1;
+  font-weight: bold;
+}
+
+shop {
+  display: block;
+  font-size: lem;
+  color: #C11;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+
+fieldset {
+  width: 256px;
+  padding: 50px;
+  background-color: #a32727;
+  border: 2px groove;
+}
+
+
+table, td {
+  background-color: #635f5f;
+  border: 30px solid #635f5f;
+  border-collapse: collapse;
+}
+
+td {
+  background-color: white;
+  text-align: center;
+  padding: 30px 10px;
+  width: 256px;
+  vertical-align: bottom;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar usr {
+  float: right;
+  padding: 12px;
+  background-color: #c92e2e;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #c92e2e;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
